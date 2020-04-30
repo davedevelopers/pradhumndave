@@ -1,0 +1,112 @@
+body {
+  margin: auto;
+}
+
+.navbar {
+  background-color: #222629;
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+  color: #67b706;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #7f8f9e;
+}
+
+#firstdiv {
+  background-color: #5085a5;
+}
+
+#profileimg {
+  width: 270px;
+  height: 300px;
+  border: solid;
+}
+
+#firstdiv .col {
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#intro {
+  text-align: center;
+  font-family: open sans;
+  /*font-weight: bold;*/
+  color: #fffeff;
+}
+
+#descdiv {
+  /*background-color: #31708e;*/
+  padding-top: 40px;
+  color: #184948;
+  /*font-size: 35px;*/
+}
+
+#descleftpara {
+  color: #2b6a68;
+  font-size: 22px;
+  text-align: justify;
+  padding-top: 30px;
+}
+
+.desclefthead {
+  font-size: 43px;
+}
+
+#intro col {
+  padding-top: 0px;
+}
+
+#firstrow {
+  padding-top: 40px;
+}
+
+@media (min-width: 992px) {
+  #image2 {
+    width: 300px;
+    height: 450px;
+    /*align-self: center;*/
+    text-align: center;
+    margin-left: 50px;
+  }
+}
+
+#colimg {
+  float: right;
+}
+
+#jumbodiv {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/WyESYh.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#jumbohead {
+  font-size: 50px;
+  color: #25274d;
+}
+
+#jumbopara {
+  font-size: 21px;
+  color: #464866;
+}
+
+form {
+  background-color: black;
+}
+
+#footerpad {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #000000;
+}
+
